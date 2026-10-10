@@ -6,11 +6,12 @@ school console, extension credentials, student histories, or tenant policies.
 
 ## Repository status
 
-This initial commit series establishes documentation and publication rules.
-No domain dataset has been uploaded yet. The existing local catalog imports
-third-party sources whose redistribution terms and provenance must be
-reviewed before publication. No completeness, accuracy, freshness, or
-real-time synchronization claim is made.
+`domains.json` contains 1,450 project-curated category/domain entries across
+32 categories, extracted from literal curated entries and intersected with
+the existing catalog. Domains may appear in multiple categories; 1,450 is
+not a unique-host count. See [SOURCE-IMPORT.md](SOURCE-IMPORT.md).
+The larger mixed-source catalog is withheld pending provenance and license
+review. No completeness, accuracy, freshness, or real-time guarantee is made.
 
 ## Intended data contract
 
@@ -24,7 +25,8 @@ A future reviewed export should have a documented schema version and include:
 - Review date and dataset release date.
 - Optional confidence or review status with a documented meaning.
 
-These are publication requirements, not a claim that data files exist.
+The initial export records source and generation time at dataset level;
+individual review dates and confidence scores are not claimed.
 Do not publish raw HTML, full visited URLs, browsing timestamps tied to users,
 student names, emails, school membership, private allow/block rules, or
 internal review notes. A domain discovered through a student visit must not

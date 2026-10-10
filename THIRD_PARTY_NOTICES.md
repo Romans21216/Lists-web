@@ -2,10 +2,12 @@
 
 ## Scope of this initial publication
 
-This commit series includes original repository documentation and ignore rules
-only. No dependency binaries, vendor source, models, copied assets, or domain
-datasets are included. This is not a completed license audit of the local
-application and does not certify future source or data imports.
+This publication includes reviewed project source or project-curated domain
+data, as described in SOURCE-IMPORT.md. Dependency binaries, vendor source,
+trained models, and mixed-source external domain feeds are not bundled.
+Dependencies declared in package manifests retain their upstream licenses;
+installing or distributing dependencies requires preserving their notices.
+This is not a completed license audit of future builds or external data imports.
 
 ## Required import record
 

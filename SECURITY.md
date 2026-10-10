@@ -6,8 +6,8 @@ exploit details in public issues. Include affected version/commit, reproduction
 steps using synthetic data, expected/actual behavior, and likely impact.
 No guaranteed response time, bounty, or supported-release window is promised.
 
-This repository is currently documentation-only. The deployed application has
-a separate lifecycle; a repository commit is not proof a live service was fixed.
+This repository includes a reviewed source/data snapshot. The deployed
+application has a separate lifecycle; a commit is not proof a live fix.
 
 Do not test production systems or school accounts without explicit authorization.
 Keep tenant and role boundaries intact. Store passwords, signing keys, OAuth
