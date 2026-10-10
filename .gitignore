@@ -1,0 +1,24 @@
+# Credentials and private runtime data
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+client_secret*.json
+*service-account*.json
+schoolConfig.js
+node_modules/
+data/
+logs/
+backups/
+downloads/
+deployments/
+*.db
+*.db-*
+*.sqlite*
+screenshots/
+recordings/
+*.crx
+*.exe
+.DS_Store
+Thumbs.db
