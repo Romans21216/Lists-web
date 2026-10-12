@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "ublock-filters-2021",
+  "generatedAt": "2026-10-12T15:51:45.013Z",
+  "url": "https://raw.githubusercontent.com/uBlockOrigin/uAssets/533b63f055a0c2441e98098ecd30a32a69aa51a5/filters/filters-2021.txt",
+  "revision": "533b63f055a0c2441e98098ecd30a32a69aa51a5",
+  "sha256": "a5bff2ec6eca28776ac6244ae20d8dc4d2d88262de2d5eb13edb3bab3849704d",
+  "license": "GPL-3.0",
+  "licenseUrl": "https://raw.githubusercontent.com/uBlockOrigin/uAssets/533b63f055a0c2441e98098ecd30a32a69aa51a5/LICENSE",
+  "licenseFile": "licenses/uassets.txt",
+  "modifications": "Hostname extraction, deduplication, sorting and project category mapping; no browser enforcement rules.",
+  "categories": {
+    "advertising-trackers": [
+      "0x01n2ptpuz3.com",
+      "a.fapcat.com",
+      "browsingcontredir.com",
+      "camplethora.com",
+      "googles.video",
+      "oi.fapnado.xxx",
+      "pub.contexthub.net",
+      "sumologic.stv.tv",
+      "twinrdsrv.com",
+      "zetadeo.com"
+    ]
+  }
+}

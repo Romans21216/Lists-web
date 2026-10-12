@@ -1,72 +1,58 @@
 # Lists-web
 
-Public repository reserved for reviewed categorized-domain lists used by
-Classroom Guardian. It contains domain classification data, not the private
-school console, extension credentials, student histories, or tenant policies.
+Public categorized-domain datasets for Classroom Guardian. No student records,
+school policies, credentials, browsing history or private application code.
 
-## Repository status
+## Full catalog — October 12, 2026
 
-`domains.json` contains 1,450 project-curated category/domain entries across
-32 categories, extracted from literal curated entries and intersected with
-the existing catalog. Domains may appear in multiple categories; 1,450 is
-not a unique-host count. See [SOURCE-IMPORT.md](SOURCE-IMPORT.md).
-The larger mixed-source catalog is withheld pending provenance and license
-review. No completeness, accuracy, freshness, or real-time guarantee is made.
+**92,396 category entries · 91,371 unique hostnames · 32 categories**
 
-## Intended data contract
+Use [catalog-index.json](catalog-index.json) and the independently licensed files
+in [sources/](sources/). The older [domains.json](domains.json) remains the
+1,450-entry curated subset for compatibility—not the full dataset.
 
-A future reviewed export should have a documented schema version and include:
+The catalog includes conservative domain-only additions selected from uBlock
+Origin's upstream asset lists. Conditional filters, exceptions, page paths,
+cosmetic filters and scriptlets are not broadened into whole-site categories.
 
-- A normalized hostname, without a URL path, query, fragment, user identifier,
-  or credentials. Preserve explicit wildcard semantics rather than inferring
-  them from a parent domain.
-- One or more documented category slugs.
-- Source/provenance reference and applicable license.
-- Review date and dataset release date.
-- Optional confidence or review status with a documented meaning.
+[Catalog format, usage and limitations](CATALOG.md) ·
+[Source import report](SOURCE-IMPORT.md) ·
+[Licenses and attribution](THIRD_PARTY_NOTICES.md)
 
-The initial export records source and generation time at dataset level;
-individual review dates and confidence scores are not claimed.
-Do not publish raw HTML, full visited URLs, browsing timestamps tied to users,
-student names, emails, school membership, private allow/block rules, or
-internal review notes. A domain discovered through a student visit must not
-carry the student's activity or identity into an export.
+## Honest coverage
 
-## Categories and corrections
+The old catalog has 74,550 category entries. This publication independently
+recovers 72,792 of those and adds other licensed public-source entries.
+**1,758 original entries remain withheld** because their exact public provenance
+could not be verified from current licensed snapshots. The reconciliation report
+lists the missing counts; this is not a claim that all old entries were published.
 
-The parent product taxonomy includes games, social media, education, search,
-news, productivity, artificial intelligence, shopping, finance, and safety/
-security categories. Use the canonical taxonomy and stable slugs at export
-time; do not treat this README as the complete taxonomy.
+Categories are source assertions, not a guarantee of accuracy or maliciousness.
+Sites and ownership change. Hostnames do not imply wildcard or parent-domain
+blocking. This update does not change school enforcement or restart services.
 
-A classification is not evidence that a domain is illegal or malicious.
-Sites and ownership change. Submit a public correction issue containing only
-the domain, proposed category, and non-sensitive supporting evidence.
-For sensitive matters contact bp@amanwithcode.org privately. Do not open
-untrusted links merely because they appear in a list.
+## Validate and read
 
-## Publication checks
+Requires Node.js 20 or later; no package dependencies.
 
-Before adding data, validate normalization, duplicate entries, category
-validity, provenance, source-license compatibility, and absence of personal
-or tenant-specific data. Use deterministic exports and reviewed diffs.
-The local parent product provides `catalog:build` and `catalog:check`
-scripts in `mock-server/`; those scripts are not included here and must not
-be assumed to produce a publication-safe export without a separate review.
+```sh
+npm test
+node scripts/read-catalog.mjs
+node scripts/read-catalog.mjs --json
+```
+
+Corrections should include the domain, proposed category and public evidence,
+never student activity or private school details. Sensitive reports:
+bp@amanwithcode.org. See [SECURITY.md](SECURITY.md).
 
 ## Licensing
 
-Public visibility is not a general reuse grant. Original documentation and
-original database material, to the extent protectable and owned by the
-contributors, are proprietary under [LICENSE](LICENSE). Individual factual
-domains are not claimed as owned by this repository. Third-party datasets
-retain their own terms; those terms override this notice for their material.
-Do not relicense imported lists under this repository's notice.
-See [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
+Original documentation, curated contributions and original tooling retain
+[LICENSE](LICENSE). Imported source datasets retain their own licenses, copied
+under [licenses/](licenses/); the repository's proprietary notice does not apply
+to those imports. This is an aggregate of separately licensed data, not a claim
+of ownership over individual domain names or an attempt to relicense uBlock.
 
-## Related repositories and contact
-
-[Classroom-guardian](https://github.com/Romans21216/Classroom-guardian)
-and [Web-Detection](https://github.com/Romans21216/Web-Detection)
-hold private application and detection development.
-Contact: bp@amanwithcode.org.
+Related private development repositories:
+[Classroom-guardian](https://github.com/Romans21216/Classroom-guardian) and
+[Web-Detection](https://github.com/Romans21216/Web-Detection).

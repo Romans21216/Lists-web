@@ -1,0 +1,425 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-12T15:51:45.013Z",
+  "baseline": {
+    "generatedAt": "2026-09-05T18:58:36.764Z",
+    "sha256": "28ca03af2cdd9aae59ac5eb7e99838fa3ad453be859cde5b340b02419b182cf4",
+    "categoryEntries": 74550,
+    "recoveredCategoryEntries": 72792,
+    "unpublishedCategoryEntries": 1758,
+    "missingCounts": {
+      "general-searching": 0,
+      "school-resources": 0,
+      "academic-integrity": 32,
+      "games": 68,
+      "proxies": 1135,
+      "social-media": 197,
+      "entertainment": 279,
+      "safety-concerns": 0,
+      "forums-communities": 0,
+      "streaming-media": 0,
+      "artificial-intelligence": 33,
+      "adult-content": 0,
+      "gambling": 0,
+      "drugs-substances": 0,
+      "weapons-violence": 0,
+      "malware-phishing": 14,
+      "dating": 0,
+      "shopping-commerce": 0,
+      "finance-cryptocurrency": 0,
+      "advertising-trackers": 0,
+      "file-sharing-storage": 0,
+      "news-media": 0,
+      "government-civics": 0,
+      "science-technology": 0,
+      "health-wellness": 0,
+      "arts-culture": 0,
+      "business-careers": 0,
+      "productivity-tools": 0,
+      "communication-email": 0,
+      "sports": 0,
+      "travel-geography": 0,
+      "religion-philosophy": 0
+    }
+  },
+  "categoryEntries": 92396,
+  "uniqueHostnames": 91371,
+  "counts": {
+    "general-searching": 139,
+    "school-resources": 261,
+    "academic-integrity": 255,
+    "games": 11854,
+    "proxies": 10075,
+    "social-media": 9168,
+    "entertainment": 12410,
+    "safety-concerns": 2810,
+    "forums-communities": 228,
+    "streaming-media": 596,
+    "artificial-intelligence": 232,
+    "adult-content": 3310,
+    "gambling": 2212,
+    "drugs-substances": 1816,
+    "weapons-violence": 63,
+    "malware-phishing": 13523,
+    "dating": 3437,
+    "shopping-commerce": 2210,
+    "finance-cryptocurrency": 1752,
+    "advertising-trackers": 7279,
+    "file-sharing-storage": 959,
+    "news-media": 2154,
+    "government-civics": 38,
+    "science-technology": 36,
+    "health-wellness": 35,
+    "arts-culture": 33,
+    "business-careers": 2565,
+    "productivity-tools": 212,
+    "communication-email": 434,
+    "sports": 2231,
+    "travel-geography": 35,
+    "religion-philosophy": 34
+  },
+  "curatedFile": "domains.json",
+  "sources": [
+    {
+      "id": "toulouse-forums",
+      "file": "sources/toulouse-forums.json",
+      "license": "CC-BY-SA-4.0",
+      "categoryEntries": 197
+    },
+    {
+      "id": "toulouse-radio",
+      "file": "sources/toulouse-radio.json",
+      "license": "CC-BY-SA-4.0",
+      "categoryEntries": 561
+    },
+    {
+      "id": "toulouse-ai",
+      "file": "sources/toulouse-ai.json",
+      "license": "CC-BY-SA-4.0",
+      "categoryEntries": 77
+    },
+    {
+      "id": "toulouse-dating",
+      "file": "sources/toulouse-dating.json",
+      "license": "CC-BY-SA-4.0",
+      "categoryEntries": 3434
+    },
+    {
+      "id": "toulouse-shopping",
+      "file": "sources/toulouse-shopping.json",
+      "license": "CC-BY-SA-4.0",
+      "categoryEntries": 2195
+    },
+    {
+      "id": "toulouse-financial",
+      "file": "sources/toulouse-financial.json",
+      "license": "CC-BY-SA-4.0",
+      "categoryEntries": 472
+    },
+    {
+      "id": "toulouse-filehosting",
+      "file": "sources/toulouse-filehosting.json",
+      "license": "CC-BY-SA-4.0",
+      "categoryEntries": 940
+    },
+    {
+      "id": "toulouse-press",
+      "file": "sources/toulouse-press.json",
+      "license": "CC-BY-SA-4.0",
+      "categoryEntries": 2130
+    },
+    {
+      "id": "toulouse-jobsearch",
+      "file": "sources/toulouse-jobsearch.json",
+      "license": "CC-BY-SA-4.0",
+      "categoryEntries": 2535
+    },
+    {
+      "id": "toulouse-webmail",
+      "file": "sources/toulouse-webmail.json",
+      "license": "CC-BY-SA-4.0",
+      "categoryEntries": 404
+    },
+    {
+      "id": "toulouse-sports",
+      "file": "sources/toulouse-sports.json",
+      "license": "CC-BY-SA-4.0",
+      "categoryEntries": 2205
+    },
+    {
+      "id": "toulouse-dangerous_material",
+      "file": "sources/toulouse-dangerous_material.json",
+      "license": "CC-BY-SA-4.0",
+      "categoryEntries": 35
+    },
+    {
+      "id": "toulouse-translation",
+      "file": "sources/toulouse-translation.json",
+      "license": "CC-BY-SA-4.0",
+      "categoryEntries": 175
+    },
+    {
+      "id": "games-blocklist",
+      "file": "sources/games-blocklist.json",
+      "license": "MIT",
+      "categoryEntries": 8174
+    },
+    {
+      "id": "block-list-project-fortnite",
+      "file": "sources/block-list-project-fortnite.json",
+      "license": "Unlicense",
+      "categoryEntries": 5
+    },
+    {
+      "id": "toulouse-games-blocklist",
+      "file": "sources/toulouse-games-blocklist.json",
+      "license": "CC-BY-SA-4.0",
+      "categoryEntries": 10606
+    },
+    {
+      "id": "toulouse-social-networks",
+      "file": "sources/toulouse-social-networks.json",
+      "license": "CC-BY-SA-4.0",
+      "categoryEntries": 715
+    },
+    {
+      "id": "toulouse-audio-video",
+      "file": "sources/toulouse-audio-video.json",
+      "license": "CC-BY-SA-4.0",
+      "categoryEntries": 3620
+    },
+    {
+      "id": "toulouse-violence",
+      "file": "sources/toulouse-violence.json",
+      "license": "CC-BY-SA-4.0",
+      "categoryEntries": 266
+    },
+    {
+      "id": "toulouse-aggressive",
+      "file": "sources/toulouse-aggressive.json",
+      "license": "CC-BY-SA-4.0",
+      "categoryEntries": 266
+    },
+    {
+      "id": "games-bypass-blocklist",
+      "file": "sources/games-bypass-blocklist.json",
+      "license": "MIT",
+      "categoryEntries": 29
+    },
+    {
+      "id": "hagezi-doh-vpn-proxy-bypass",
+      "file": "sources/hagezi-doh-vpn-proxy-bypass.json",
+      "license": "GPL-3.0",
+      "categoryEntries": 10035
+    },
+    {
+      "id": "awesome-ai-tools",
+      "file": "sources/awesome-ai-tools.json",
+      "license": "CC0-1.0",
+      "categoryEntries": 212
+    },
+    {
+      "id": "awesome-ai-tools-education",
+      "file": "sources/awesome-ai-tools-education.json",
+      "license": "CC0-1.0",
+      "categoryEntries": 162
+    },
+    {
+      "id": "block-list-project-facebook",
+      "file": "sources/block-list-project-facebook.json",
+      "license": "Unlicense",
+      "categoryEntries": 3559
+    },
+    {
+      "id": "block-list-project-tiktok",
+      "file": "sources/block-list-project-tiktok.json",
+      "license": "Unlicense",
+      "categoryEntries": 3500
+    },
+    {
+      "id": "block-list-project-twitter",
+      "file": "sources/block-list-project-twitter.json",
+      "license": "Unlicense",
+      "categoryEntries": 1193
+    },
+    {
+      "id": "block-list-project-whatsapp",
+      "file": "sources/block-list-project-whatsapp.json",
+      "license": "Unlicense",
+      "categoryEntries": 226
+    },
+    {
+      "id": "block-list-project-piracy",
+      "file": "sources/block-list-project-piracy.json",
+      "license": "Unlicense",
+      "categoryEntries": 2154
+    },
+    {
+      "id": "block-list-project-youtube",
+      "file": "sources/block-list-project-youtube.json",
+      "license": "Unlicense",
+      "categoryEntries": 4000
+    },
+    {
+      "id": "block-list-project-torrent",
+      "file": "sources/block-list-project-torrent.json",
+      "license": "Unlicense",
+      "categoryEntries": 2619
+    },
+    {
+      "id": "block-list-project-crypto",
+      "file": "sources/block-list-project-crypto.json",
+      "license": "Unlicense",
+      "categoryEntries": 1272
+    },
+    {
+      "id": "block-list-project-gambling",
+      "file": "sources/block-list-project-gambling.json",
+      "license": "Unlicense",
+      "categoryEntries": 2212
+    },
+    {
+      "id": "block-list-project-drugs",
+      "file": "sources/block-list-project-drugs.json",
+      "license": "Unlicense",
+      "categoryEntries": 1704
+    },
+    {
+      "id": "block-list-project-vaping",
+      "file": "sources/block-list-project-vaping.json",
+      "license": "Unlicense",
+      "categoryEntries": 108
+    },
+    {
+      "id": "block-list-project-porn",
+      "file": "sources/block-list-project-porn.json",
+      "license": "Unlicense",
+      "categoryEntries": 3310
+    },
+    {
+      "id": "block-list-project-abuse",
+      "file": "sources/block-list-project-abuse.json",
+      "license": "Unlicense",
+      "categoryEntries": 2502
+    },
+    {
+      "id": "block-list-project-fraud",
+      "file": "sources/block-list-project-fraud.json",
+      "license": "Unlicense",
+      "categoryEntries": 2580
+    },
+    {
+      "id": "block-list-project-scam",
+      "file": "sources/block-list-project-scam.json",
+      "license": "Unlicense",
+      "categoryEntries": 3000
+    },
+    {
+      "id": "block-list-project-phishing",
+      "file": "sources/block-list-project-phishing.json",
+      "license": "Unlicense",
+      "categoryEntries": 2509
+    },
+    {
+      "id": "block-list-project-malware",
+      "file": "sources/block-list-project-malware.json",
+      "license": "Unlicense",
+      "categoryEntries": 7353
+    },
+    {
+      "id": "block-list-project-ransomware",
+      "file": "sources/block-list-project-ransomware.json",
+      "license": "Unlicense",
+      "categoryEntries": 1904
+    },
+    {
+      "id": "block-list-project-ads",
+      "file": "sources/block-list-project-ads.json",
+      "license": "Unlicense",
+      "categoryEntries": 3670
+    },
+    {
+      "id": "block-list-project-tracking",
+      "file": "sources/block-list-project-tracking.json",
+      "license": "Unlicense",
+      "categoryEntries": 3510
+    },
+    {
+      "id": "ublock-filters",
+      "file": "sources/ublock-filters.json",
+      "license": "GPL-3.0",
+      "categoryEntries": 34
+    },
+    {
+      "id": "ublock-privacy",
+      "file": "sources/ublock-privacy.json",
+      "license": "GPL-3.0",
+      "categoryEntries": 84
+    },
+    {
+      "id": "ublock-badware",
+      "file": "sources/ublock-badware.json",
+      "license": "GPL-3.0",
+      "categoryEntries": 1149
+    },
+    {
+      "id": "ublock-resource-abuse",
+      "file": "sources/ublock-resource-abuse.json",
+      "license": "GPL-3.0",
+      "categoryEntries": 0
+    },
+    {
+      "id": "ublock-filters-2020",
+      "file": "sources/ublock-filters-2020.json",
+      "license": "GPL-3.0",
+      "categoryEntries": 10
+    },
+    {
+      "id": "ublock-filters-2021",
+      "file": "sources/ublock-filters-2021.json",
+      "license": "GPL-3.0",
+      "categoryEntries": 10
+    },
+    {
+      "id": "ublock-filters-2022",
+      "file": "sources/ublock-filters-2022.json",
+      "license": "GPL-3.0",
+      "categoryEntries": 22
+    },
+    {
+      "id": "ublock-filters-2023",
+      "file": "sources/ublock-filters-2023.json",
+      "license": "GPL-3.0",
+      "categoryEntries": 13
+    },
+    {
+      "id": "ublock-filters-2024",
+      "file": "sources/ublock-filters-2024.json",
+      "license": "GPL-3.0",
+      "categoryEntries": 21
+    },
+    {
+      "id": "ublock-filters-2025",
+      "file": "sources/ublock-filters-2025.json",
+      "license": "GPL-3.0",
+      "categoryEntries": 37
+    },
+    {
+      "id": "ublock-filters-2026",
+      "file": "sources/ublock-filters-2026.json",
+      "license": "GPL-3.0",
+      "categoryEntries": 49
+    }
+  ],
+  "withheldSources": [
+    {
+      "id": "bunchc-games-blocklist",
+      "reason": "Withheld: unclear standalone redistribution provenance; use independently licensed overlap only."
+    },
+    {
+      "id": "stevenblack-social-only",
+      "reason": "Withheld: unclear standalone redistribution provenance; use independently licensed overlap only."
+    }
+  ],
+  "enforcement": "Data only: does not publish rules, change school policy or classify all subdomains."
+}

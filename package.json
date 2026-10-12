@@ -1,0 +1,9 @@
+{
+  "name": "lists-web-catalog",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test scripts/test-catalog.mjs"
+  },
+  "engines": { "node": ">=20" }
+}

@@ -1,35 +1,45 @@
 # Third-party notices — Lists-web
 
-## Scope of this initial publication
+## Separate licensed datasets
 
-This publication includes reviewed project source or project-curated domain
-data, as described in SOURCE-IMPORT.md. Dependency binaries, vendor source,
-trained models, and mixed-source external domain feeds are not bundled.
-Dependencies declared in package manifests retain their upstream licenses;
-installing or distributing dependencies requires preserving their notices.
-This is not a completed license audit of future builds or external data imports.
+This repository aggregates independently licensed public dataset snapshots in
+`sources/`. Their license fields and files under `licenses/` govern those works;
+the proprietary root LICENSE does not replace or restrict those permissions.
+Input hashes, upstream references and revisions are recorded in each source JSON.
+Host extraction, normalization, deduplication and category mapping are modifications.
+No upstream application binaries or implementation source are copied.
 
-## Required import record
+| Source | Attribution and upstream | License copy |
+| --- | --- | --- |
+| UT1 categorized blacklists | Université Toulouse Capitole; Fabrice Prigent and contributors, https://dsi.ut-capitole.fr/blacklists/ | CC-BY-SA-4.0, licenses/toulouse.txt |
+| The Block List Project | blocklistproject contributors, https://github.com/blocklistproject/Lists | Unlicense, licenses/blocklist.txt |
+| Game blocking lists | Copyright (c) 2023 IREK-szef, https://github.com/IREK-szef/games-blocklist | MIT, licenses/games.txt |
+| HaGeZi DNS bypass lists | HaGeZi and contributors, https://github.com/hagezi/dns-blocklists | GPL-3.0, licenses/hagezi.txt |
+| Awesome AI Tools | eudk and contributors, https://github.com/eudk/awesome-ai-tools | CC0-1.0, licenses/ai-eudk.txt |
+| Awesome AI Tools education | aliammari1 and contributors, https://github.com/aliammari1/Awesome-Ai-Tools | CC0-1.0, licenses/ai-aliammari.txt |
+| uBlock filter assets | uBlock Origin/uAssets contributors, https://github.com/uBlockOrigin/uAssets | GPL-3.0, licenses/uassets.txt |
 
-Before including third-party material, record its component/source name,
-upstream URL, exact revision or release, license identifier and full required
-license text, copyright/attribution, local paths, modifications, and any
-redistribution obligations. Preserve required LICENSE/NOTICE files.
-Never apply this repository's proprietary notice to third-party material.
-If terms are absent or redistribution is unclear, withhold that material
-pending permission or review.
+The uBlock Origin application repository https://github.com/gorhill/uBlock was
+used to identify asset sources, not copied into this repository. Its pinned
+revision appears in upstream-pins.json. Required full license texts accompany
+imported data. Normalized GPL snapshots are provided as editable source data.
+CC-BY-SA imports remain CC-BY-SA; their source JSON notes this export's changes.
 
-## Known review candidates, not material included here
+No endorsement by an upstream project is implied. Upstream safety/category
+assertions are not independent verification by Classroom Guardian.
 
-The local application uses npm dependencies and imported domain sources.
-The catalog builder references Universite Toulouse Capitole blacklists,
-IREK-szef/games-blocklist, Block List Project lists, and a bunchc GitHub gist.
-Their licenses and export compatibility have not been verified by this
-documentation task. Listing these sources is not a redistribution license.
+## Withheld sources
 
-Before a software release, produce an inventory from the exact lockfile and
-bundled artifacts. Before a data release, review every source contributing
-rows. Third-party services, Google authorization, and model APIs also have
-their own usage terms; repository licensing does not replace those terms.
+The bunchc gist has no verified redistribution license; it is not imported.
+The StevenBlack social-only aggregate embeds additional source material; it is
+not imported under the top-level MIT license without a complete component audit.
+Removed or unmatched old domains are not assigned fabricated provenance.
 
-License questions: bp@amanwithcode.org.
+## Original material
+
+Original project literals, documentation and original tooling retain the root
+LICENSE where protectable. Factual individual hostname ownership is not claimed.
+Student or school runtime data is not included. Product service agreements,
+privacy policies and third-party service terms are separate from data licensing.
+
+Contact: bp@amanwithcode.org.

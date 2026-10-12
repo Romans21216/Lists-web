@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "ublock-filters-2024",
+  "generatedAt": "2026-10-12T15:51:45.013Z",
+  "url": "https://raw.githubusercontent.com/uBlockOrigin/uAssets/533b63f055a0c2441e98098ecd30a32a69aa51a5/filters/filters-2024.txt",
+  "revision": "533b63f055a0c2441e98098ecd30a32a69aa51a5",
+  "sha256": "d13b75eac194463bc16020e5802a221d120c57179d32e0398b822bba9a1e1f40",
+  "license": "GPL-3.0",
+  "licenseUrl": "https://raw.githubusercontent.com/uBlockOrigin/uAssets/533b63f055a0c2441e98098ecd30a32a69aa51a5/LICENSE",
+  "licenseFile": "licenses/uassets.txt",
+  "modifications": "Hostname extraction, deduplication, sorting and project category mapping; no browser enforcement rules.",
+  "categories": {
+    "advertising-trackers": [
+      "1winpb.com",
+      "ads.the.tube",
+      "arabs.alarbda.com",
+      "axhkkigc.com",
+      "buyvisblog.com",
+      "bzzxq.com",
+      "comfortablepossibilitycarlos.com",
+      "crmacd.livejasmin.com",
+      "enigmaswhereas.com",
+      "eyewondermedia.com",
+      "festivalcasketfrench.com",
+      "highmanapts.com",
+      "nanai-clw.com",
+      "pagefair.net",
+      "prahmnatured.com",
+      "push-me-once.com",
+      "rectangularfoundation.com",
+      "reminderasking.com",
+      "rencontres-coquines.jacquieetmichel.net",
+      "video-ads-module.ad-tech.nbcuni.com",
+      "zqvee2re50mr.com"
+    ]
+  }
+}

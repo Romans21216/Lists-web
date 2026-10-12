@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "block-list-project-fortnite",
+  "generatedAt": "2026-10-12T15:51:45.013Z",
+  "url": "https://raw.githubusercontent.com/blocklistproject/Lists/ee3bdbaddf49c756cf3340bb2e6a9dee5282d1c6/alt-version/fortnite-nl.txt",
+  "revision": "ee3bdbaddf49c756cf3340bb2e6a9dee5282d1c6",
+  "sha256": "b0be5058215c318f9b376b29f6374a5a67cb963f3e8618ed990428c766168892",
+  "license": "Unlicense",
+  "licenseUrl": "https://raw.githubusercontent.com/blocklistproject/Lists/ee3bdbaddf49c756cf3340bb2e6a9dee5282d1c6/LICENSE",
+  "licenseFile": "licenses/blocklist.txt",
+  "modifications": "Hostname extraction, deduplication, sorting and project category mapping; no browser enforcement rules.",
+  "categories": {
+    "games": [
+      "account-service-prod03-pub-ak-1731030959.us-east-1.elb.amazonaws.com",
+      "datarouter.ol.epicgames.com",
+      "eos-gateway-ingressv2-prod-c3-w3.befa.live.use1a.on.epicgames.com",
+      "eos-gateway-ingressv2-prod-c3-w4.befa.live.use1a.on.epicgames.com",
+      "fortnite-matchmaking-public-service-live-eu.ol.epicgames.com"
+    ]
+  }
+}

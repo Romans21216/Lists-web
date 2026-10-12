@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "ublock-filters-2022",
+  "generatedAt": "2026-10-12T15:51:45.013Z",
+  "url": "https://raw.githubusercontent.com/uBlockOrigin/uAssets/533b63f055a0c2441e98098ecd30a32a69aa51a5/filters/filters-2022.txt",
+  "revision": "533b63f055a0c2441e98098ecd30a32a69aa51a5",
+  "sha256": "c8ad801eb3fe209a82a1f5d290a4d0094bd4b8beb9f9f07d2a5dfe19e9bca3c2",
+  "license": "GPL-3.0",
+  "licenseUrl": "https://raw.githubusercontent.com/uBlockOrigin/uAssets/533b63f055a0c2441e98098ecd30a32a69aa51a5/LICENSE",
+  "licenseFile": "licenses/uassets.txt",
+  "modifications": "Hostname extraction, deduplication, sorting and project category mapping; no browser enforcement rules.",
+  "categories": {
+    "advertising-trackers": [
+      "8q7tvj34.xyz",
+      "a.b.napiszar.com",
+      "a.slashdotmedia.com",
+      "adblockultra.com",
+      "adspy.javrank.com",
+      "blocksly.org",
+      "collect.media.jio.com",
+      "doaipomer.com",
+      "drectsearch.com",
+      "flatrelentlessperspective.com",
+      "hbagency.it",
+      "litaudrootsa.net",
+      "popcashjs.b-cdn.net",
+      "revive.3wayint.com",
+      "spiddefrexpron.com",
+      "spiderhannahresidential.com",
+      "ss-mndsrv.b-cdn.net",
+      "terribledeliberate.com",
+      "track.bcvc.mobi",
+      "ublockpop.com",
+      "wheelroot.com",
+      "you2ubeconverter.com"
+    ]
+  }
+}

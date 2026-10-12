@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-10T00:30:43.251Z",
+  "generatedAt": "2026-10-12T15:51:45.013Z",
   "sources": [
     {
       "id": "project-curated",
-      "description": "Literal curated entries in the project catalog builder; no external feeds or legacy account files imported."
+      "description": "Public literal project domains only. No legacy account files, private rules or runtime data."
     }
   ],
   "counts": {

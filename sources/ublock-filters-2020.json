@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "ublock-filters-2020",
+  "generatedAt": "2026-10-12T15:51:45.013Z",
+  "url": "https://raw.githubusercontent.com/uBlockOrigin/uAssets/533b63f055a0c2441e98098ecd30a32a69aa51a5/filters/filters-2020.txt",
+  "revision": "533b63f055a0c2441e98098ecd30a32a69aa51a5",
+  "sha256": "3fc9634b4455e88f5cb71dbf2a4df03cae730bb06a3d0d1b50eb5245c79f019b",
+  "license": "GPL-3.0",
+  "licenseUrl": "https://raw.githubusercontent.com/uBlockOrigin/uAssets/533b63f055a0c2441e98098ecd30a32a69aa51a5/LICENSE",
+  "licenseFile": "licenses/uassets.txt",
+  "modifications": "Hostname extraction, deduplication, sorting and project category mapping; no browser enforcement rules.",
+  "categories": {
+    "advertising-trackers": [
+      "adsux.com",
+      "adxcel.com",
+      "boyfriendmeaningless.com",
+      "declk.com",
+      "disproveknob.com",
+      "eriegentsfse.info",
+      "fzj3v7sch2xg5gosh60vpkrth5c6cngvj5ivd9kg5ajcdl2vlp2ocj5fjbto.me",
+      "ligheechoagool.com",
+      "pixeltrey.com",
+      "reingod.com"
+    ]
+  }
+}
